@@ -1,0 +1,13 @@
+g++ -c exit.cpp
+g++ -o exit exit.o
+g++ -c block.cpp
+g++ -o block block.o
+g++ -c running.cpp
+g++ -o running running.o
+g++ -c ready.cpp
+g++ -o ready ready.o
+g++ -c new.cpp
+g++ -o new new.o
+g++ -c main.cpp
+g++ -o main main.o
+./main
